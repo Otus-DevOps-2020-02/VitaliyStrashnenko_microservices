@@ -1,0 +1,2 @@
+# VitaliyStrashnenko_microservices
+VitaliyStrashnenko microservices repository
