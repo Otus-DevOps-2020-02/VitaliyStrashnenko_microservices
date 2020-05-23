@@ -1,5 +1,20 @@
 # VitaliyStrashnenko_microservices
 VitaliyStrashnenko microservices repository
+# Сетевое взаимодействие Docker контейнеров. Docker Compose. Тестирование образов 
+
+Изучили различные виды сетей используемых в docker:
+    
+    Посомтрели на то как устроен сетевой стек сетей docker
+    Изучили утилиту docker-compose и структуру docker-compose.yml
+    Сконфигурировали приложение для использования сетей в compose-file и конфигурацию через env файлы
+    Задать имя проекта можно через переменную среды COMPOSE_PROJECT_NAME или через параметр -p, --project-name NAME при запуске docker-compose
+
+ДЗ*
+
+    Исходники монтируются через volume
+    Используется параметризиорванная комманда запуска
+
+
 # Docker образы. Микросервисы
     1 VS-code установили линтер Hadolint
     2 Скачали исходники сайта и разместили их у себя в репозитории
