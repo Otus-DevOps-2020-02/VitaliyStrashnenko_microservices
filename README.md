@@ -1,7 +1,7 @@
 # VitaliyStrashnenko_microservices
 VitaliyStrashnenko microservices repository
 
-# Мониторинг приложенияи инфраструктурыи инфраструктуры
+#  Мониторинг приложенияи инфраструктурыи инфраструктуры
 
     Создали отдельный docker-compose конфигурацию для сервисов мониторинга
     Подключили сервис cAdvisor - и посмотриели на его работу
