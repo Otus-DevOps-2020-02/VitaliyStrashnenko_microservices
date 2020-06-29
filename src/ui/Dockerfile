@@ -1,13 +1,13 @@
-FROM ruby:2.2
-RUN apt-get update -qq && apt-get install -y build-essential
+FROM ruby:2.2-alpine
+RUN mkdir /app
+WORKDIR /app
+ADD . /app
+RUN apk add --no-cache build-base && \
+    gem install bundler:1.17.2 &&  \
+    bundle install && \
+    apk del build-base
 
-ENV APP_HOME /app
-RUN mkdir $APP_HOME
 
-WORKDIR $APP_HOME
-ADD Gemfile* $APP_HOME/
-RUN bundle install
-ADD . $APP_HOME
 
 ENV POST_SERVICE_HOST post
 ENV POST_SERVICE_PORT 5000
