@@ -2,6 +2,19 @@
 # VitaliyStrashnenko_microservices
 VitaliyStrashnenko microservices repository
 
+# CI/CD в Kubernetes
+
+    Установлен helm версии 2 и 3.
+    Создан манифест Tiller и применен к инфраструктуре kubernetes.
+    Созданы Chart'ы для компонентов приложения.
+    Проинсталлировано приложение и все его компоненты с использованием helm.
+    Настроено взаимодействие между компонентами через общий Chart.
+    Установлен gitlab с omnibus с помощью Helm. (нужно не забывать ставить галочку про устаревшие права в GCE).
+    Созданы проекты UI, Comment и Post для создания через pipeline gitlab контейнеров этих приложний и заливка их в dockerhub.
+    Создан центральный проект reddit-deploy для автоматического развертывания инфраструктуры в разных environment'ах.
+    Для каждого приложения создан свой .gitlab-ci.yml конфиг для разных pipeline.
+    Модернизированы .gitlab-ci.yml конфиги всех приложений для развертывания с разных версий helm.
+
 # Kubernetes: Networks, Storages
 
     Детально изучили абстракцию Service

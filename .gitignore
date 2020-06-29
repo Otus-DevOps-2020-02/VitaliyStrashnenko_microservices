@@ -34,3 +34,5 @@ secrets.txt
 kubernetes/the_hard_way/cfssl
 kubernetes/the_hard_way/cfssljson
 kubernetes/terraform/.terraform.tfstate.lock.info
+kubernetes/Gitlab_ci
+instal_gl.md 
