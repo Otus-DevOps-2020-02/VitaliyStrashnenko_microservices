@@ -29,3 +29,7 @@ switch_docker_machine.sh
 *.pdf
 
 secrets.txt
+
+#kiber
+kubernetes/the_hard_way/cfssl
+kubernetes/the_hard_way/cfssljson
