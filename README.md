@@ -1,5 +1,20 @@
+
 # VitaliyStrashnenko_microservices
 VitaliyStrashnenko microservices repository
+
+# Kubernetes: Networks, Storages
+
+    Детально изучили абстракцию Service
+    Изучили тип подключения ClusterIP
+    Изучили тип подключения NodePort
+    Изучили тип подключения LoadBalancer
+    Изучили тип подключения Ingress
+    Изучили конфигурацию Secret
+    Настроили TLS Termination
+    Настроили Network Policy для нашего приложения в GKE
+    Изучили механизмы хранения данных (Volume): emptyDir, gcePersistentDisk
+    Изучили механизм выделения и нахначения ресурсов хранения для K8s: PersistentVolume, PersistentVolumeClaim
+
 
 # Основные модели безопасности и контроллеры в Kubernetes
 
