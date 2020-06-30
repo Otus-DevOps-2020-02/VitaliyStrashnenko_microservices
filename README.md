@@ -2,6 +2,15 @@
 # VitaliyStrashnenko_microservices
 VitaliyStrashnenko microservices repository
 
+# Kubernetes. Мониторинг и логирование
+
+    Установлен Prometheus с помощью helm chart'а.
+    Настроены сборки метрик с приложений для Prometheus.
+    Установлена Grafana.
+    Настроены графики для различных пространств и разверток с использованием variables (dashboard'ы приведены в kubernetes/Grafana_dashboard).
+    Установлен Elasticksearch с Kibana.
+
+
 # CI/CD в Kubernetes
 
     Установлен helm версии 2 и 3.
